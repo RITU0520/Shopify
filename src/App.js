@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { useNavigate } from 'react-router-dom';
+
+
 
 function App() {
+  const navigate = useNavigate();
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +21,9 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={()=>{navigate('/header',{state:{id:"1",name:"ABC"}})}}>Header</button>
+        <button onClick={()=>{navigate('/footer')}}>Footer</button>   
+        <button onClick={()=>{navigate('/main')}}>main</button>
       </header>
     </div>
   );
