@@ -2,8 +2,8 @@ import {useEffect} from 'react'
 import {useState} from 'react';
 
 const Main = () => {
-  const[count,setCount] = useState(0);
-  const[age,setAge] = useState(18);
+  // const[count,setCount] = useState(0);
+  // /
   const[resdata,setResdata] = useState([]);
 
   useEffect(()=>{
@@ -12,7 +12,7 @@ const Main = () => {
     
     .then((data)=>setResdata(data))
     .catch((err)=>console.log(err))
-  },[age]);
+  },[]);
   return (
     <div>
       {/* <h1>Example of useEffect</h1>
