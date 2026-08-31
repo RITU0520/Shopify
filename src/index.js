@@ -7,7 +7,7 @@ import App from './App';
 // import C2f from './C2f';
 import Header from './Header';
 import Footer from './Footer';
-import Main from './main';
+import Main from './Main';
 import {BrowserRouter, Routes,Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
