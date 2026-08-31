@@ -5,10 +5,10 @@ function C2f(){
     const add = () => {
         setCount(count + 1);
     }
-    const [count1, setCount1] = useState(65);
+    
     const addC = () => {
     
-    setCount(prevCount => prevCount + 1); 
+     
   };
 
     return (

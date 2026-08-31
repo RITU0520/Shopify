@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Class1 from './class1';
-import C2f from './C2f';
+// import reportWebVitals from './reportWebVitals';
+// import Class1 from './class1';
+// import C2f from './C2f';
 import Header from './Header';
 import Footer from './Footer';
-import Main from './Main';
+import Main from './main';
 import {BrowserRouter, Routes,Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
